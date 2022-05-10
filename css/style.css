@@ -1,0 +1,212 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: gray;
+    color: #eee;
+    border-radius: 5px;
+    transition: background 500ms ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #000;
+}
+.line{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+/* Navbar - barra de navegação*/
+
+#navbar{
+    width: 100%;
+    background: #111;
+    color: #eee;
+    height: 80px;
+    position: fixed;
+
+}
+#navbar-container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    font-size: 2rem;
+}
+#navbar-items{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+#navbar-items li{
+    padding: 10px;
+   
+}
+
+/*case imagem*/ 
+
+#case{
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/img/Petco.jpg') no-repeat center center/cover;
+    background-color: rgba(0,0,0,0,4);
+    background-blend-mode: color;
+}
+#case-container{
+    text-align: center;
+
+}
+#case-container h2{
+    font-size: 2.5rem;
+}
+#case-container p{
+    font-size: 1.2rem;
+    padding: 10px 0; 
+}
+#clientes{
+    width: 100%;
+    background: #eee;
+    color: #111;
+    padding: 50px;
+}
+.clientes-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 15px;
+
+
+}
+.cliente{
+    display: inline-block;
+    width: 30%;
+}
+#fazemos{
+    background: gray;
+    color: white;
+    padding: 55px;
+}
+#fazemos-container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.titulo-fazemos{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+/* NOSSO PRODUTO*/
+
+#produto{
+    width: 100%;
+    padding: 50px;
+}
+#produto-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#items{
+    width: 600px;
+}
+#items .item{
+    display: flex;
+    padding: 10px;
+    margin: 15px -1px;
+    font-size: 1.2rem;
+}
+.comentario{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: darkgray;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 25px;
+
+}
+#comentarios{
+    width: 100%;
+    background: gray;
+    color: white;
+    padding: 50px;
+
+}
+#comentarios-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.comentario .comentario-image{
+    height: 200px;
+    width: auto;
+    border-radius: 60%;
+    margin: 17px;
+}
+
+
+/*GALERIA*/
+#galeria{
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+#galeria-container{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-gap: 30px;
+    justify-content: center;
+}
+.galeria-image{
+    display: inline-block;
+    width: 540px;
+    height: 360px;
+    border-radius: 20px;
+
+}
+
+/* footer - terminal */
+
+#footer{
+    background: gray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+.paixao{
+    width: 35%;
+}
+
